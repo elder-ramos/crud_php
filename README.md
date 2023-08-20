@@ -4,7 +4,7 @@ Um aplicativo que permite criar, ler, editar e apagar clientes (CRUD).
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/elder-ramos/crud_php/blob/main/video/mysql.mkv)
 
 ## Stack utilizada
 
