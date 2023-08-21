@@ -12,11 +12,23 @@ Um aplicativo que permite criar, ler, editar e apagar clientes (CRUD).
 
 **Banco de Dados:** MySQL
 
-## Vídeos
-Mostrando as funções do site.
+# Vídeos
 
-[php.webm](https://github.com/elder-ramos/crud_php/assets/99875876/6b65663a-7fbb-4d1b-99c0-4c03d4d367f5)
+### Adição de usuários
 
-Conexão com MySQL.
+```INSERT INTO `usuarios` (numero, codigo, atualizacao) VALUES ('{$tel}', '{$codigo}', '{$datetime}')```
 
-[mysql.webm](https://github.com/elder-ramos/crud_php/assets/99875876/16b7208b-71e1-44d5-abed-977a7ac31d8a)
+[![Adição de usuários]](https://github.com/elder-ramos/crud_php/assets/99875876/7c01aa02-faae-4e59-a3de-37a076748cfe)
+
+
+### Edição de usuários
+
+```"UPDATE usuarios SET numero = '{$tel}', codigo = '{$codigo}' WHERE id=".$_REQUEST['id']```
+
+[![Edição de usuários]](https://github.com/elder-ramos/crud_php/assets/99875876/05c9c997-2d07-4aa7-ab80-d721fa603c2b)
+
+### Exclusão de usuários
+
+```"DELETE FROM `usuarios` WHERE id=".$_REQUEST['id']```
+
+[![Exclusão de usuário]](https://github.com/elder-ramos/crud_php/assets/99875876/ea17e3d0-5649-46e0-ba23-d12d9594410a)
